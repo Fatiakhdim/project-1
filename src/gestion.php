@@ -1,14 +1,3 @@
-<?php
-session_start();
-$nom = $_SESSION['user'];
-$id_user = $_SESSION['id'];
-
-if ($nom == null) {
-	header('Location:login/login.php');
-}
-?>
-
-<?php $db = mysqli_connect('localhost', 'root', 'root', 'locars'); ?>
 
 <?php
 // verifier si le formulaire du modification est rempli pour savoir s'il va executer la requete ou non

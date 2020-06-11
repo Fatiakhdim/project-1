@@ -1946,6 +1946,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+
 }
 
 .nav-menu ul {
@@ -2001,6 +2002,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Nav Meu Container */
 #nav-menu-container {
   margin: 0;
+  background: black;
+  border: 1px solid white;
 }
 
 @media (max-width: 768px) {
@@ -2179,7 +2182,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 2em 0;
+  
 }
 
 .section-title {
@@ -3492,3 +3496,62 @@ body.mobile-nav-active #mobile-nav-toggle {
                End Blog Details  Page style
 ################
 */
+
+
+
+/*about */
+
+
+.we{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ height: 400px; 
+ 
+
+
+}
+
+.pics{
+  background:url('/project/cars.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.texto{
+  padding-top: 1em;
+  padding-left: 1em;
+
+}
+.texto h1{
+  text-align: center;
+  font-size: 1.8em;
+}
+.texto p{
+  padding-top: 2em;
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: black;
+}
+.pics1{
+  background:url('/project/merc.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.pics2{
+  background:url('/project/obi.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.all{
+  padding:0 2em;
+
+}
+
+.underline{
+text-align: center;
+padding-bottom: 2em;
+
+}
+
+
+

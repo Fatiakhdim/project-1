@@ -1,10 +1,4 @@
-<?php
-session_start();
-$nom = $_SESSION['user'];
-if ($nom == null) {
-	header('Location:login/login.php');
-}
-?>
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
@@ -35,14 +29,13 @@ if ($nom == null) {
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
-						<li><a href="../index.php">Bonjour <?php echo "$nom"; ?>!</a></li>
+						
 						<li class="menu-active"><a href="../index.php">accueil</a></li>
 						<li><a href="about.php">À propos de nous</a></li>
 						<li><a href="gestion.php">Ma voiture</a></li>
-						<li><a href="team.php">notre équipe </a></li>
+						
 						<li><a href="contact.php">Contact</a></li>
 
-						<li><a href="login/deconnexion.php">Deconnexion</a></li>
 					</ul>
 				</nav>
 				<!-- #nav-menu-container -->

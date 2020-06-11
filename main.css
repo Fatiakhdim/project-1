@@ -2001,6 +2001,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Nav Meu Container */
 #nav-menu-container {
   margin: 0;
+   background: black;
+  border: 1px solid white;
 }
 
 @media (max-width: 768px) {
@@ -2271,13 +2273,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/header-bg.jpg) center;
+  background: url(/project/header-bg.jpg) center no-repeat;
   background-size: cover;
 }
 
-.banner-area .overlay-bg {
-  background-color: rgba(0, 0, 0, 0.8);
-}
+/*.banner-area .overlay-bg {
+  background-color: black;
+}*/
 
 @media (max-width: 767px) {
   .fullscreen {
@@ -2657,7 +2659,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .callaction-area .overlay-bg {
-  background-color: rgba(4, 9, 30, 0.75);
+  background-color: green;
 }
 
 .callaction-btn {
@@ -3139,7 +3141,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .blog-banner-area .overlay-bg {
-  background: rgba(0, 0, 0, 0.55);
+  background: red;
 }
 
 .blog-banner-wrap {
@@ -3525,28 +3527,28 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .pic1{
   height: 300px;
-  background:url("/locars/sandero-diesel.jpg") no-repeat;
+  background:url("/project/sandero-diesel.jpg") no-repeat;
   background-size: contain;
   background-position: center;
 
 }
 .pic2{
   height: 300px;
-  background:url("/locars/dacia.jpg") no-repeat;
+  background:url("/project/dacia.jpg") no-repeat;
   background-size: contain;
   background-position: center;
 
 }
 .pic3{
   height: 300px;
-  background:url("/locars/dokker.jpg") no-repeat;
+  background:url("/project/dokker.jpg") no-repeat;
   background-size: contain;
   background-position: center;
 
 }
 .pic4{
   height: 300px;
-  background:url("/locars/pgt.jpg") no-repeat;
+  background:url("/project/pgt.jpg") no-repeat;
   background-size: contain;
   background-position: center;
 
