@@ -23,7 +23,7 @@
     height: 100%;
 }
 .carousel{
-	height: 60%;
+	height: 80%;
 	width: 100%;
 	background:green;
 }
@@ -86,9 +86,7 @@
 						<li><a href="src/about.php">À propos de nous</a></li>
 						<li><a href="src/gestion.php">Nos voiture</a></li>
 
-						
-
-						<li><a href="src/contact.php">Contact</a></li>
+						<li><a href="src/contact.php" >Contact</a></li>
 
 						
 					</ul>
