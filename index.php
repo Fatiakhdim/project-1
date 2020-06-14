@@ -18,6 +18,56 @@
 		.locars {
 			border-radius: 10px;
 		}
+	.carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+.carousel{
+	height: 60%;
+	width: 100%;
+	background:green;
+}
+
+#bg1{
+	height: 100%;
+	background:url('header-bg2.jpg') center no-repeat;
+	background-size: cover;
+	
+
+}
+
+#bg2{
+	height: 100%;
+	background:url('merc12.jpg') center no-repeat;
+	background-size: cover;
+
+}
+
+#bg3{
+	height: 100%;
+	background:url('merc22.jpg') center no-repeat;
+	background-size: cover;
+	
+
+}
+
+.ttl{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+
+}
+.ttl, h1{
+	color: white;
+	font-size: 3em;
+}
+.ttl, p{
+	color: white;
+	font-size: 1.2em;
+}
+
+
 	</style>
 </head>
 
@@ -50,53 +100,91 @@
 
 
 	<!-- start banner Area -->
-	<section class="banner-area relative" id="home">
-		<div class="overlay overlay-bg"></div>
-		<div class="container">
-			<div class="row fullscreen d-flex align-items-center justify-content-center">
-				<div class="banner-content col-lg-7 col-md-6 ">
 
-					<h1 class="text-white text-uppercase">
-						Une prestation de qualité pour votre location de véhicule
-					</h1>
-					<p class="pt-20 pb-20 text-white">
-						Louer un véhicule avec Locars ce n’est pas simplement trouver le meilleur moyen de se rendre d’un point A à un point B. C’est une invitation au voyage, au volant d’un véhicule qui saura seconder toutes vos envies, vous permettant ainsi de profiter d’une expérience mémorable
-					</p>
 
-				</div>
-			
-			</div>
-		</div>
-	</section>
+<div id="demo" class="carousel slide" data-ride="carousel" >
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active"  id="bg1">
+    	<div class="ttl">
+    	<h1 > Title</h1>
+    	<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
+    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
+    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    	consequat.</p>
+    </div>
+     <!-- <img src="header-bg.jpg" alt="Los Angeles" >-->
+    </div>
+    <div class="carousel-item" id="bg2">
+    	<div class="ttl">
+    	<h1> Title</h1>
+    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
+    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
+    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    	consequat.</p>
+    </div>
+     <!-- <img src="merc1.jpg" alt="Chicago" >-->
+    </div>
+    <div class="carousel-item" id="bg3">
+    	<div class="ttl">
+    	<h1> Title</h1>
+    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
+    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
+    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    	consequat.</p>
+    </div>
+     <!-- <img src="merc2.jpg" alt="New York" >-->
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+
 	<!-- End banner Area -->
  <section class="our-cars">
  	
  	<div class="cards">
 
  		<div class="c1 card">
- 			<div class="pic1"></div>
+ 			<div class="pic1 pics"></div>
  			<p>Dacia Sandero</p>
  			<div class="price">
  				<ul>
  					<li class="nopr">Notre prix:</li>
- 					<li class="numb">400dh</li>
+ 					<li class="numb">300dh</li>
  				</ul>
  			</div>
  			<div class="buttt"><a href="#" class="offer">Voir the offer</a></div>
  		</div>
  		<div class="c2 card">
- 			<div class="pic2"></div>
+ 			<div class="pic2 pics"></div>
  			<p>Dacia Logan</p>
  			<div class="price">
  				<ul>
  					<li class="nopr">Notre prix:</li>
- 					<li class="numb">400dh</li>
+ 					<li class="numb">500dh</li>
  				</ul>
  			</div>
  			<div class="buttt"><a href="#" class="offer">Voir the offer</a></div>
  		</div>
  		<div class="c3 card">
- 			<div class="pic3"></div>
+ 			<div class="pic3 pics"></div>
  			<p>Dacia Dokker</p>
  			<div class="price">
  				<ul>
@@ -107,12 +195,57 @@
  			<div class="buttt"><a href="#" class="offer">Voir the offer</a></div>
  		</div>
  		<div class="c4 card">
- 			<div class="pic4"></div>
+ 			<div class="pic4 pics"></div>
  			<p>Peugeot 208</p>
  			<div class="price">
  				<ul>
  					<li class="nopr">Notre prix:</li>
+ 					<li class="numb">200dh</li>
+ 				</ul>
+ 			</div>
+ 			<div class="buttt"><a href="#" class="offer" >Voir the offer</a></div>
+ 		</div>
+
+ 		<div class="c1 card">
+ 			<div class="pic5 pics"></div>
+ 			<p>	Fiat Panda</p>
+ 			<div class="price">
+ 				<ul>
+ 					<li class="nopr">Notre prix:</li>
+ 					<li class="numb">550dh</li>
+ 				</ul>
+ 			</div>
+ 			<div class="buttt"><a href="#" class="offer">Voir the offer</a></div>
+ 		</div>
+ 		<div class="c2 card">
+ 			<div class="pic6 pics"></div>
+ 			<p> Peugeot 206+</p>
+ 			<div class="price">
+ 				<ul>
+ 					<li class="nopr">Notre prix:</li>
  					<li class="numb">400dh</li>
+ 				</ul>
+ 			</div>
+ 			<div class="buttt"><a href="#" class="offer">Voir the offer</a></div>
+ 		</div>
+ 		<div class="c3 card">
+ 			<div class="pic7 pics"></div>
+ 			<p>	Dacia Logan</p>
+ 			<div class="price">
+ 				<ul>
+ 					<li class="nopr">Notre prix:</li>
+ 					<li class="numb">400dh</li>
+ 				</ul>
+ 			</div>
+ 			<div class="buttt"><a href="#" class="offer">Voir the offer</a></div>
+ 		</div>
+ 		<div class="c4 card">
+ 			<div class="pic8 pics"></div>
+ 			<p>	Ford Fiesta</p>
+ 			<div class="price">
+ 				<ul>
+ 					<li class="nopr">Notre prix:</li>
+ 					<li class="numb">700dh</li>
  				</ul>
  			</div>
  			<div class="buttt"><a href="#" class="offer" >Voir the offer</a></div>

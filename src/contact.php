@@ -16,6 +16,53 @@
 		.locars {
 			border-radius: 10px;
 		}
+  .inpt{
+    
+display: block;
+width: 80%;
+height: calc(1.5em + .75rem + 2px);
+font-weight: 400;
+line-height: 1.5;
+background-clip: padding-box;
+margin-bottom: 1rem;
+padding-left: 1rem;
+  }
+  .txtarea{
+    margin-top: 1.5em;
+    width: 100%;
+    height: 220px;
+padding-left: 1em;
+padding-top: 1em; 
+margin-bottom: 2em;   
+  }
+  .btn{
+    margin-top: 1em;
+    color: white;
+    background: #fab700;
+    text-transform: uppercase;
+    border: none;
+   
+  }
+  .btn:hover{
+    color:#fab700;
+    background: white;
+    border:1px solid #fab700;
+  }
+  .contact-us{
+   
+    margin: 0;
+    width: 100%;
+    padding: 5em;
+
+  }
+  .the-forms{
+  	
+    display: grid;
+    grid-template-columns: 1fr ;
+
+  }
+
+
 	</style>
 </head>
 
@@ -32,7 +79,7 @@
 						
 						<li class="menu-active"><a href="../index.php">accueil</a></li>
 						<li><a href="about.php">À propos de nous</a></li>
-						<li><a href="gestion.php">Ma voiture</a></li>
+						<li><a href="gestion.php">Nos voiture</a></li>
 						
 						<li><a href="contact.php">Contact</a></li>
 
@@ -62,32 +109,20 @@
 
 
 	<!-- Start contact-page Area -->
-	<section class="contact-page-area section-gap">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-lg-8">
-					<form class="form-area " id="myForm" action="../model/mail.php" method="post" class="contact-form text-right">
-						<div class="row">
-							<div class="col-lg-6 form-group">
-								<input name="name" placeholder="Entrer Votre Nom" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entrer Votre Nom'" class="common-input mb-20 form-control" required="" type="text">
-
-								<input name="email" placeholder="Entrer votre Email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entrer votre Email'" class="common-input mb-20 form-control" required="" type="email">
-
-								<input name="subject" placeholder="Entrer votre sujet" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entrer votre sujet'" class="common-input mb-20 form-control" required="" type="text">
-								<div class="mt-20 alert-msg" style="text-align: left;"></div>
-							</div>
-							<div class="col-lg-6 form-group">
-								<textarea class="common-textarea form-control" name="message" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" required=""></textarea>
-								<button class="primary-btn mt-20 text-white" style="float: right;">Envoyer le Message </button>
-
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</section>
+<section class="contact-us">
+    <div class="the-forms">
+      
+      <input name="name" placeholder="Entrer Votre Nom" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entrer Votre Nom'" class="common-input mb-20 form-control" required="" type="text" class="inpt">
+      <input name="email" placeholder="Entrer votre Email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entrer votre Email'" class="common-input mb-20 form-control" required="" type="email" class="inpt">
+      <input name="subject" placeholder="Entrer votre sujet" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entrer votre sujet'" class="common-input mb-20 form-control" required="" type="text" class="inpt">
+                
+      <textarea  name="message" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" required="" class="txtarea"></textarea>
+      
+    </div>
+    
+    <button class="btn" >Envoyer le Message </button>
+  
+</section>
 	<!-- End contact-page Area -->
 
 	<?php include 'footer.html'; ?>
