@@ -7,7 +7,12 @@
 	<meta charset="UTF-8">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+	
+
 	<link rel="stylesheet" href="../outils/css/main.css">
 
 	<title>Contact</title>
@@ -62,6 +67,22 @@ margin-bottom: 2em;
 
   }
 
+.both{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.address{
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+
+.address li{
+	font-size: 1.3em;
+
+	padding-bottom: 1.5em;
+}
+
 
 	</style>
 </head>
@@ -72,7 +93,7 @@ margin-bottom: 2em;
 		<div class="container">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
-					<a href="../index.php"><img class="locars" src="../outils/img/logo.jpg" alt="" title="" width=200px /></a>
+					<a href="../index.php"><img class="locars" src="/project/logo.png" alt="" title="" width=100px /></a>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
@@ -110,6 +131,8 @@ margin-bottom: 2em;
 
 	<!-- Start contact-page Area -->
 <section class="contact-us">
+	<div class="both">
+		<div class="form">
     <div class="the-forms">
       
       <input name="name" placeholder="Entrer Votre Nom" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entrer Votre Nom'" class="common-input mb-20 form-control" required="" type="text" class="inpt">
@@ -121,7 +144,20 @@ margin-bottom: 2em;
     </div>
     
     <button class="btn" >Envoyer le Message </button>
-  
+  </div>
+  <div class="address"> 
+  	<ul>
+  		<i class="fas fa-map-marker-alt" style="color: #fab700;"> Address: </i>
+  		<li>Bournazel, IMM 20 Hay Moulay Rachid casablanca </li>
+  		<i class="fas fa-phone" style="color: #fab700;"> Télephone: </i><li>Tel : +212 60 52 51 96<br>Fax : +212 10 00 02 33</li>
+  		<i class="fas fa-clock" style="color: #fab700;"> Horaire: </i><li>
+
+Lun – Ven: 09:00AM – 09:00PM<br>
+Samedi: 09:00AM – 07:00PM<br>
+Dimanche: Fermé
+</li>
+  	</ul>
+  </div>
 </section>
 	<!-- End contact-page Area -->
 

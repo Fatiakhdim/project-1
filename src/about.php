@@ -24,7 +24,7 @@
 		<div class="container">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
-					<a href="../index.php"><img class="locars" src="../outils/img/logo.jpg" alt="" title="" width=200px /></a>
+					<a href="../index.php"><img class="locars" src="/project/logo.png" alt="" title="" width=100px /></a>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
@@ -60,59 +60,64 @@
 	<!-- End banner Area -->
 
 	<!-- Start home-about Area -->
-	<div style="padding-top: 1em">
-		<h1  class="underline">Quels services nous offrons a nos clients ?</h1>
-<div class="all">
+	<div >
+		
+<div class="all" style="border-bottom: 1px solid black;" >
 
 		<div class="we">
 			<div class="pics">
 			
 			</div>
 			<div class="texto">
-				<h1>Techniciens Experts</h1>
-				<p>loremLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<h1>A l'origine de Lamandria Car<br>
+Une culture et un travail acharné! </h1>
+				<p>Lamandria Car est une Agence de location de voitures à Fès, la capitale spirituelle du Maroc. Spécialisée dans la location de voitures à usage personnel, professionnel et touristique. La qualité de notre service, l’amabilité de nos agents et le bon état de nos voitures sont les atouts qui nous distinguent. La fidélité de ses clients a contribué à sa prospérité. Nous disposons d’une gamme du choix de véhicules à des prix défiant toute concurrence, et grâce à la garantie de nos prix, vous êtes assuré d’obtenir les meilleures offres disponibles sans avoir besoin de comparer les prix de location. Plusieurs possibilités de location et d’assurance vous sont proposées : soit au km, soit au forfait avec des prix dégressifs suivant la durée. Le véhicule peut être assuré au tiers, vol, incendie, bris de glace, passagers ou encore tous risques.</p>
 				
 			</div>
 		</div>
-	<div class="we">
+	<div class="we" >
 			
-			<div class="texto">
-				<h1>Bon Support</h1>
-				<p>loremLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="texto" >
+				
+				<p>Qu'il s'agisse d'un weekend en couple, de vacances en famille ou d'un déplacement professionnel, il est important de bien choisir sa voiture de location. Confort, visibilité et conduite sont des éléments à prendre en compte afin de rouler en toute sérénité. Dans notre agence, nous vous proposons une large gamme de véhicules entretenus et révisés régulièrement qui ne vous décevrons pas. Nous jouons un rôle actif en matière de développement durable pour que notre activité évolue dans le respect de notre environnement, mais également pour participer à la création d’un monde meilleur pour les générations à venir.</p>
 				
 			</div>
 			<div class="pics1">
 			
 			</div>
 		</div>
-	<div class="we">
-			<div class="pics2">
-			
-			</div>
-			<div class="texto">
-				<h1>Avis Positives</h1>
-				<p>loremLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				
-			</div>
-		</div>
+
 
 	</div>
 </div>
+<section class="feature-area section-gap" id="service">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="col-md-8 pb-40 header-text">
+					<h1>Quels services nous offrons à nos clients?</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="single-feature">
+						<h4><span class="lnr lnr-user"></span>Techniciens Experts</h4>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="single-feature">
+						<h4><span class="lnr lnr-phone"></span>Bon Support</h4>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="single-feature">
+						<h4><span class="lnr lnr-bubble"></span>Avis Positives</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<!-- End home-about Area -->
 
 
