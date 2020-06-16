@@ -65,7 +65,7 @@
 <div class="all" style="border-bottom: 1px solid black;" >
 
 		<div class="we">
-			<div class="pics">
+			<div class="pics2-2">
 			
 			</div>
 			<div class="texto">

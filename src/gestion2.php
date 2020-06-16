@@ -70,7 +70,7 @@
  	<div class="cards">
 
  		<div class="c1 card">
- 			<div class="pic1 pics"></div>
+ 			<div class="pic12 pics"></div>
  			<p>Dacia Sandero</p>
  			<div class="price">
  				<ul>
@@ -81,7 +81,7 @@
  			<div class="buttt"><a href="#" class="offer">Voir l'offre</a></div>
  		</div>
  		<div class="c2 card">
- 			<div class="pic2 pics"></div>
+ 			<div class="pic22 pics"></div>
  			<p>Dacia Logan</p>
  			<div class="price">
  				<ul>
@@ -92,7 +92,7 @@
  			<div class="buttt"><a href="#" class="offer">Voir l'offre</a></div>
  		</div>
  		<div class="c3 card">
- 			<div class="pic3 pics"></div>
+ 			<div class="pic32 pics"></div>
  			<p>Dacia Dokker</p>
  			<div class="price">
  				<ul>
@@ -103,7 +103,7 @@
  			<div class="buttt"><a href="#" class="offer">Voir l'offre</a></div>
  		</div>
  		<div class="c4 card">
- 			<div class="pic4 pics"></div>
+ 			<div class="pic42 pics"></div>
  			<p>Peugeot 208</p>
  			<div class="price">
  				<ul>
@@ -115,7 +115,7 @@
  		</div>
 
  		<div class="c1 card">
- 			<div class="pic5 pics"></div>
+ 			<div class="pic52 pics"></div>
  			<p>	Fiat Panda</p>
  			<div class="price">
  				<ul>
@@ -126,7 +126,7 @@
  			<div class="buttt"><a href="#" class="offer">Voir l'offre</a></div>
  		</div>
  		<div class="c2 card">
- 			<div class="pic6 pics"></div>
+ 			<div class="pic62 pics"></div>
  			<p> Peugeot 206+</p>
  			<div class="price">
  				<ul>
@@ -137,7 +137,7 @@
  			<div class="buttt"><a href="#" class="offer">Voir l'offre</a></div>
  		</div>
  		<div class="c3 card">
- 			<div class="pic7 pics"></div>
+ 			<div class="pic72 pics"></div>
  			<p>	Dacia Logan</p>
  			<div class="price">
  				<ul>
@@ -148,7 +148,7 @@
  			<div class="buttt"><a href="#" class="offer">Voir l'offre</a></div>
  		</div>
  		<div class="c4 card">
- 			<div class="pic8 pics"></div>
+ 			<div class="pic82 pics"></div>
  			<p>	Ford Fiesta</p>
  			<div class="price">
  				<ul>
@@ -161,9 +161,10 @@
  	</div>
  	<div class="buttons">
  		<ul>
+ 		<a href="gestion.php" ><li style="padding: 0.5em 1.3em; margin-left: 1em"><< Previous </li></a>
  		<a href="gestion.php"><li style="padding: 0.5em 1em;">1</li></a>
  		<a href="gestion2.php"><li style="padding: 0.5em 1em;">2</li></a>
- 		<a href="gestion2.php" ><li style="padding: 0.5em 1.3em; margin-left: 1em">Next ></li></a>
+ 		
  	</ul>
  	</div>
  </section>
