@@ -1,4 +1,35 @@
 
+<!--
+
+⡟⠛⢻⣿⣿⣿⡟⠛⢻⣿⣿⣿⡿⠛⠛⠛⢿⡟⠛⢻⣿⣿⠛⢻⡟⠛⠛⠛⠛⠛⠛⠛
+⡇⠄⢸⣿⣿⣿⡇⠄⢸⣿⣿⡟⠄⢠⣶⡄⠄⢻⡀⠈⣿⡇⠄⣼⡇⠄⣶⣶⣶⣿
+⡇⠄⢸⣿⣿⣿⡇⠄⢸⣿⣿⡇⠄⢸⣿⡇⠄⢸⣇⠄⢹⠄⢰⣿⡇⠄⣀⣀⣀⣿
+⡇⠄⢸⣿⣿⣿⡇⠄⠈⠉⠉⣷⡀⠈⠛⠁⢀⣾⣿⡄⠄⠄⣾⣿⡇⠄⠛⠛⠛⣿
+⣷⣶⣾⣿⣿⣿⣷⣶⣶⣶⣶⣿⣿⣶⣶⣶⣿⣿⣿⣷⣶⣾⣿⣿⣷⣶⣶⣶⣶⣿
+⣿⣿⣿⣿⣿⡟⠛⢻⣿⠟⠛⣻⡿⠛⠛⠛⢿⣿⡟⠛⣿⣿⠛⠛⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⡄⠄⠏⠄⣰⡏⠄⣠⣶⡄⠄⢿⡇⠄⣿⣿⠄⠄⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⡄⠄⣰⣿⡇⠄⣿⣿⡇⠄⢸⡇⠄⣿⣿⠄⠄⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⡇⠄⣿⣿⣧⡀⠈⠛⠁⢀⣿⣇⠄⠙⠋⠄⣰⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣷⣶⣿⣿⣿⣿⣶⣶⣶⣿⣿⣿⣷⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ 
+
+-->
+
+<!--
+
+⡟⠛⢻⣿⣿⣿⡟⠛⢻⣿⣿⣿⡿⠛⠛⠛⢿⡟⠛⢻⣿⣿⠛⢻⡟⠛⠛⠛⠛⠛⠛⠛
+⡇⠄⢸⣿⣿⣿⡇⠄⢸⣿⣿⡟⠄⢠⣶⡄⠄⢻⡀⠈⣿⡇⠄⣼⡇⠄⣶⣶⣶⣿
+⡇⠄⢸⣿⣿⣿⡇⠄⢸⣿⣿⡇⠄⢸⣿⡇⠄⢸⣇⠄⢹⠄⢰⣿⡇⠄⣀⣀⣀⣿
+⡇⠄⢸⣿⣿⣿⡇⠄⠈⠉⠉⣷⡀⠈⠛⠁⢀⣾⣿⡄⠄⠄⣾⣿⡇⠄⠛⠛⠛⣿
+⣷⣶⣾⣿⣿⣿⣷⣶⣶⣶⣶⣿⣿⣶⣶⣶⣿⣿⣿⣷⣶⣾⣿⣿⣷⣶⣶⣶⣶⣿
+⣿⣿⣿⣿⣿⡟⠛⢻⣿⠟⠛⣻⡿⠛⠛⠛⢿⣿⡟⠛⣿⣿⠛⠛⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⡄⠄⠏⠄⣰⡏⠄⣠⣶⡄⠄⢿⡇⠄⣿⣿⠄⠄⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⡄⠄⣰⣿⡇⠄⣿⣿⡇⠄⢸⡇⠄⣿⣿⠄⠄⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⡇⠄⣿⣿⣧⡀⠈⠛⠁⢀⣿⣇⠄⠙⠋⠄⣰⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣷⣶⣿⣿⣿⣿⣶⣶⣶⣿⣿⣿⣷⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ 
+
+-->
 
 
 <!DOCTYPE html>
@@ -30,7 +61,7 @@
 
 #bg1{
 	height: 100%;
-	background:url('header-bg2.jpg') center no-repeat;
+	background:url('/project/imgs/index imgs/header-bg2.jpg') center no-repeat;
 	background-size: cover;
 	
 
@@ -38,14 +69,14 @@
 
 #bg2{
 	height: 100%;
-	background:url('merc12.jpg') center no-repeat;
+	background:url('/project/imgs/index imgs/merc12.jpg') center no-repeat;
 	background-size: cover;
 
 }
 
 #bg3{
 	height: 100%;
-	background:url('merc22.jpg') center no-repeat;
+	background:url('/project/imgs/index imgs/merc22.jpg') center no-repeat;
 	background-size: cover;
 	
 
@@ -60,7 +91,8 @@
 }
 .ttl, h1{
 	color: white;
-	font-size: 3em;
+	font-size: 1.5em;
+	text-transform: uppercase;
 }
 .ttl, p{
 	color: white;
@@ -77,7 +109,7 @@
 		<div class="container">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
-					<a href="index.php"><img class="locars" src="/project/logo.png" alt="" title="" width=110px /></a>
+					<a href="index.php"><img class="locars" src="/project/imgs/logo/logo.png" alt="" title="" width=110px /></a>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
@@ -85,9 +117,8 @@
 						<li class="menu-active"><a href="index.php">accueil</a></li>
 						<li><a href="src/about.php">À propos de nous</a></li>
 						<li><a href="src/gestion.php">Nos voiture</a></li>
-
 						<li><a href="src/contact.php" >Contact</a></li>
-
+                        <li><a href="src/conditions.php">Les conditions</a></li>
 						
 					</ul>
 				</nav>
@@ -113,31 +144,21 @@
   <div class="carousel-inner">
     <div class="carousel-item active"  id="bg1">
     	<div class="ttl">
-    	<h1 > Title</h1>
-    	<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
-    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
-    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    	consequat.</p>
+    	<h1 > Une prestation de qualité pour votre location de véhicule! </h1>
+    
     </div>
      <!-- <img src="header-bg.jpg" alt="Los Angeles" >-->
     </div>
     <div class="carousel-item" id="bg2">
     	<div class="ttl">
-    	<h1> Title</h1>
-    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
-    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
-    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    	consequat.</p>
-    </div>
+    	<h1> Une prestation de qualité pour votre location de véhicule! </h1>
+    	    </div>
      <!-- <img src="merc1.jpg" alt="Chicago" >-->
     </div>
     <div class="carousel-item" id="bg3">
     	<div class="ttl">
-    	<h1> Title</h1>
-    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
-    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
-    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    	consequat.</p>
+    	<h1> Une prestation de qualité pour votre location de véhicule! </h1>
+    
     </div>
      <!-- <img src="merc2.jpg" alt="New York" >-->
     </div>
@@ -168,7 +189,7 @@
  					<li class="numb">300dh</li>
  				</ul>
  			</div>
- 			<div class="buttt"><a href="#" class="offer">Voir the offer</a></div>
+ 			<div class="buttt"><a href="#" class="offer">Voir l'offre</a></div>
  		</div>
  		<div class="c2 card">
  			<div class="pic2 pics"></div>
@@ -179,7 +200,7 @@
  					<li class="numb">500dh</li>
  				</ul>
  			</div>
- 			<div class="buttt"><a href="#" class="offer">Voir the offer</a></div>
+ 			<div class="buttt"><a href="src/dacia.php" class="offer">Voir l'offre</a></div>
  		</div>
  		<div class="c3 card">
  			<div class="pic3 pics"></div>
@@ -190,7 +211,7 @@
  					<li class="numb">400dh</li>
  				</ul>
  			</div>
- 			<div class="buttt"><a href="#" class="offer">Voir the offer</a></div>
+ 			<div class="buttt"><a href="#" class="offer">Voir l'offre</a></div>
  		</div>
  		<div class="c4 card">
  			<div class="pic4 pics"></div>
@@ -201,10 +222,10 @@
  					<li class="numb">200dh</li>
  				</ul>
  			</div>
- 			<div class="buttt"><a href="#" class="offer" >Voir the offer</a></div>
+ 			<div class="buttt"><a href="#" class="offer" >Voir l'offre</a></div>
  		</div>
 
- 		<div class="c1 card">
+ 		<!--<div class="c1 card">
  			<div class="pic5 pics"></div>
  			<p>	Fiat Panda</p>
  			<div class="price">
@@ -213,7 +234,7 @@
  					<li class="numb">550dh</li>
  				</ul>
  			</div>
- 			<div class="buttt"><a href="#" class="offer">Voir the offer</a></div>
+ 			<div class="buttt"><a href="#" class="offer">Voir l'offre</a></div>
  		</div>
  		<div class="c2 card">
  			<div class="pic6 pics"></div>
@@ -224,7 +245,7 @@
  					<li class="numb">400dh</li>
  				</ul>
  			</div>
- 			<div class="buttt"><a href="#" class="offer">Voir the offer</a></div>
+ 			<div class="buttt"><a href="#" class="offer">Voir l'offre</a></div>
  		</div>
  		<div class="c3 card">
  			<div class="pic7 pics"></div>
@@ -235,7 +256,7 @@
  					<li class="numb">400dh</li>
  				</ul>
  			</div>
- 			<div class="buttt"><a href="#" class="offer">Voir the offer</a></div>
+ 			<div class="buttt"><a href="#" class="offer">Voir l'offre</a></div>
  		</div>
  		<div class="c4 card">
  			<div class="pic8 pics"></div>
@@ -246,8 +267,13 @@
  					<li class="numb">700dh</li>
  				</ul>
  			</div>
- 			<div class="buttt"><a href="#" class="offer" >Voir the offer</a></div>
- 		</div>
+ 			<div class="buttt"><a href="#" class="offer" >Voir l'offre</a></div>
+ 		</div>-->
+ 	</div>
+ 	<div class="see-more" style="display: grid; text-align: right; padding: 1em;">
+ 		<ul>
+ 		<a href="src/gestion.php"><li class="see" style="border: 1px solid #04091e; display: inline-block; padding: 0.8em 1em;   background: #04091e;color: white;">Voir Plus >>> </li></a>
+ 	</ul>
  	</div>
  </section>
 	<?php include 'src/footer.html'; ?>

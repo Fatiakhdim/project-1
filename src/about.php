@@ -24,7 +24,7 @@
 		<div class="container">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
-					<a href="../index.php"><img class="locars" src="/project/logo.png" alt="" title="" width=100px /></a>
+					<a href="../index.php"><img class="locars" src="/project/imgs/logo/logo.png" alt="" title="" width=100px /></a>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
@@ -34,6 +34,8 @@
 						<li><a href="gestion.php" class="list">Nos voiture</a></li>
 						
 						<li><a href="contact.php" class="list">Contact</a></li>
+                        <li><a href="conditions.php">Les conditions</a></li>
+
 
 						
 					</ul>

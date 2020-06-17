@@ -1883,10 +1883,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   padding: 14px 0px 14px 0;
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
+  background: #04091e;
   transition: all 0.5s;
   z-index: 997;
 }
@@ -1968,6 +1965,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu > li {
   float: left;
+
 }
 
 .nav-menu li:hover > ul,
@@ -2006,8 +2004,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Nav Meu Container */
 #nav-menu-container {
   margin: 0;
-   background: black;
-  border: 1px solid white;
+ 
 }
 
 @media (max-width: 768px) {
@@ -2021,7 +2018,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 6px 10px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: white;
   font-weight: 400;
   font-size: 12px;
   text-transform: uppercase;
@@ -3580,7 +3577,7 @@ input[name="r"]{
 }
 .pic1{
   height: 300px;
-  background:url("/project/sandero-diesel.jpg") no-repeat;
+  background:url("/project/imgs/catalogue/sandero-diesel.jpg") no-repeat;
   background-size: contain;
   background-position: center;
  
@@ -3588,49 +3585,49 @@ input[name="r"]{
 }
 .pic2{
   height: 300px;
-  background:url("/project/dacia.jpg") no-repeat;
+  background:url("/project/imgs/catalogue/dacia.jpg") no-repeat;
   background-size: contain;
   background-position: center;
 
 }
 .pic3{
   height: 300px;
-  background:url("/project/dokker.jpg") no-repeat;
+  background:url("/project/imgs/catalogue/dokker.jpg") no-repeat;
   background-size: contain;
   background-position: center;
 
 }
 .pic4{
   height: 300px;
-  background:url("/project/pgt.jpg") no-repeat;
+  background:url("/project/imgs/catalogue/pgt.jpg") no-repeat;
   background-size: contain;
   background-position: center;
 
 }
 .pic5{
   height: 300px;
-  background:url("/project/panda.jpg") no-repeat;
+  background:url("/project/imgs/catalogue/panda.jpg") no-repeat;
   background-size: contain;
   background-position: center;
 
 }
 .pic6{
   height: 300px;
-  background:url("/project/206.jpg") no-repeat;
+  background:url("/project/imgs/catalogue/206.jpg") no-repeat;
   background-size: contain;
   background-position: center;
 
 }
 .pic7{
   height: 300px;
-  background:url("/project/logan-diesel.jpg") no-repeat;
+  background:url("/project/imgs/catalogue/logan-diesel.jpg") no-repeat;
   background-size: contain;
   background-position: center;
 
 }
 .pic8{
   height: 300px;
-  background:url("/project/fiesta.jpg") no-repeat;
+  background:url("/project/imgs/catalogue/fiesta.jpg") no-repeat;
   background-size: contain;
   background-position: center;
 

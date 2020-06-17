@@ -93,7 +93,7 @@ margin-bottom: 2em;
 		<div class="container">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
-					<a href="../index.php"><img class="locars" src="/project/logo.png" alt="" title="" width=100px /></a>
+					<a href="../index.php"><img class="locars" src="/project/imgs/logo/logo.png" alt="" title="" width=100px /></a>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
@@ -103,6 +103,8 @@ margin-bottom: 2em;
 						<li><a href="gestion.php">Nos voiture</a></li>
 						
 						<li><a href="contact.php">Contact</a></li>
+                        <li><a href="conditions.php">Les conditions</a></li>
+
 
 					</ul>
 				</nav>
